@@ -1,24 +1,24 @@
 {
-  "name": "lsb-client",
+  "name": "sdc-client",
   "version": "0.1.0",
-  "description": "A wrapper around the Laan & Spar bank (based on sdc.dk) webservice",
+  "description": "A wrapper around the sdc.dk webservice",
   "main": "index.js",
-  "scripts": {
-    "test": "mocha"
-  },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/kraenhansen/lsb-client.git"
+    "url": "git+ssh://git@github.com/kraenhansen/sdc-client.git"
   },
   "keywords": [
-    "Lån",
-    "&",
-    "Spar"
+    "SDC"
   ],
   "author": "Kræn Hansen <mail@kraenhansen.dk>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kraenhansen/lsb-client/issues"
+    "url": "https://github.com/kraenhansen/sdc-client/issues"
   },
-  "homepage": "https://github.com/kraenhansen/lsb-client#readme"
+  "homepage": "https://github.com/kraenhansen/sdc-client#readme",
+  "dependencies": {
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1",
+    "winston": "^2.3.1"
+  }
 }
